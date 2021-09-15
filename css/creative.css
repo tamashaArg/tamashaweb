@@ -284,7 +284,12 @@ header .header-content .header-content-inner p {
    }
   .textoInicio{
     padding-inline-start: 0px;
-  } 
+  }
+  .navbar-default .nav > li.active > a,
+  .navbar-default .nav > li.active > a:focus {
+    color: #ffce00 !important;
+    background-color: transparent;
+  }
 }
 
 @media (min-width: 768px) {
