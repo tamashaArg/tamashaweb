@@ -278,6 +278,15 @@ header .header-content .header-content-inner p {
   font-size: 16px;
   margin-bottom: 50px;
 }
+@media (max-width:768px){
+  .logoTop{
+    max-width: 250px; 
+   }
+  .textoInicio{
+    padding-inline-start: 0px;
+  } 
+}
+
 @media (min-width: 768px) {
   header {
     min-height: 100%;
